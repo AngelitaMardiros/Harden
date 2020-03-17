@@ -1,0 +1,22 @@
+/*** Awaken Church Chatbot Toggle Adjustments ***/
+
+/*** .jss52 is the class of the close button ***/
+.jss52 {
+    top: 20px;
+    color: white;
+    right: 0;
+    z-index: 10000000;
+    position: absolute;
+    border-radius: 0;
+  }
+
+/*** Awaken Church Navigation Padding Adjustment ***/
+
+    .et_header_style_left #et-top-navigation nav>ul>li>a, .et_header_style_split #et-top-navigation nav>ul>li>a {
+        padding-bottom: 30px !important;
+    }
+
+    @media only screen and (min-width: 981px)
+.et_header_style_left #et-top-navigation nav>ul>li>a, .et_header_style_split #et-top-navigation nav>ul>li>a {
+    padding-bottom: 30px !important;
+}
